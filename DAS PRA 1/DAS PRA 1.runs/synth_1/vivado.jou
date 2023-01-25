@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jan 25 16:38:35 2023
+# Process ID: 14564
+# Current directory: C:/Users/alevb/DAS 1/DAS 1.runs/synth_1
+# Command line: vivado.exe -log decoder3x8.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder3x8.tcl
+# Log file: C:/Users/alevb/DAS 1/DAS 1.runs/synth_1/decoder3x8.vds
+# Journal file: C:/Users/alevb/DAS 1/DAS 1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source decoder3x8.tcl -notrace

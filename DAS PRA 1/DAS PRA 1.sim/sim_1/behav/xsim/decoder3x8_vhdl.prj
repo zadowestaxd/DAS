@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Desktop/DAS/P1/decoder2x4.vhdl" \
+"../../../../DAS 1.srcs/sources_1/new/decoder3x8.vhd" \
+
+# Do not sort compile order
+nosort
