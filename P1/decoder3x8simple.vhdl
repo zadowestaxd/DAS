@@ -25,7 +25,8 @@ begin
                 when "101" => o <= "00100000";
                 when "110" => o <= "01000000";
                 when "111" => o <= "10000000";
-                when others => d <= "11111111";
+                when 
+                    others => d <= "11111111";
             end case;
         end if;
     end process;
