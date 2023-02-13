@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/alevb/DAS 1/DAS 1.runs/synth_1'
+HD_PWD='C:/Users/alevb/Desktop/DAS/DAS PRA 1/DAS PRA 1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

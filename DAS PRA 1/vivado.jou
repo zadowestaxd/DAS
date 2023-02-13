@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Feb 12 09:47:56 2023
+# Process ID: 11912
+# Current directory: C:/Users/alevb/Desktop/DAS/DAS PRA 1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2784 C:\Users\alevb\Desktop\DAS\DAS PRA 1\DAS PRA 1.xpr
+# Log file: C:/Users/alevb/Desktop/DAS/DAS PRA 1/vivado.log
+# Journal file: C:/Users/alevb/Desktop/DAS/DAS PRA 1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/alevb/Desktop/DAS/DAS PRA 1/DAS PRA 1.xpr}
+update_compile_order -fileset sources_1

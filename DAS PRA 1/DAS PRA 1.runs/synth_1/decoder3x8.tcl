@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/alevb/DAS 1/DAS 1.runs/synth_1/decoder3x8.tcl"
+  variable script "C:/Users/alevb/Desktop/DAS/DAS PRA 1/DAS PRA 1.runs/synth_1/decoder3x8.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,25 +70,21 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7vx485tffg1157-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/alevb/DAS 1/DAS 1.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/alevb/DAS 1/DAS 1.xpr} [current_project]
+set_property webtalk.parent_dir {C:/Users/alevb/Desktop/DAS/DAS PRA 1/DAS PRA 1.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/alevb/Desktop/DAS/DAS PRA 1/DAS PRA 1.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Users/alevb/DAS 1/DAS 1.cache/ip} [current_project]
+set_property ip_output_repo {c:/Users/alevb/Desktop/DAS/DAS PRA 1/DAS PRA 1.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib {
-  C:/Users/alevb/Desktop/DAS/P1/decoder2x4.vhdl
-  {C:/Users/alevb/DAS 1/DAS 1.srcs/sources_1/new/decoder3x8.vhd}
-}
+read_vhdl -library xil_defaultlib {{C:/Users/alevb/Desktop/DAS/DAS PRA 1/DAS PRA 1.srcs/sources_1/new/decoder3x8.vhd}}
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
