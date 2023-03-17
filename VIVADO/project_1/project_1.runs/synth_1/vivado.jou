@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Feb 16 10:20:53 2023
+# Process ID: 8028
+# Current directory: C:/Users/alevb/Desktop/DAS/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log divisor_frecuencia.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source divisor_frecuencia.tcl
+# Log file: C:/Users/alevb/Desktop/DAS/project_1/project_1.runs/synth_1/divisor_frecuencia.vds
+# Journal file: C:/Users/alevb/Desktop/DAS/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source divisor_frecuencia.tcl -notrace
