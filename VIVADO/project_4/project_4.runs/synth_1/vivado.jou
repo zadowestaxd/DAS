@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 12 15:20:50 2023
+# Process ID: 2044
+# Current directory: C:/Users/alevb/Desktop/DAS/VIVADO/project_4/project_4.runs/synth_1
+# Command line: vivado.exe -log my_RAM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source my_RAM.tcl
+# Log file: C:/Users/alevb/Desktop/DAS/VIVADO/project_4/project_4.runs/synth_1/my_RAM.vds
+# Journal file: C:/Users/alevb/Desktop/DAS/VIVADO/project_4/project_4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source my_RAM.tcl -notrace

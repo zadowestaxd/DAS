@@ -35,13 +35,12 @@ use IEEE.std_logic_arith.all;
 entity divisor_frecuencia is
  Port ( clk : in std_logic;
         reset : in std_logic;
-        cuentamax : in std_logic_vector (26 downto 0);
         light : out std_logic); 
 end divisor_frecuencia;
 
 architecture Behavioral of divisor_frecuencia is
-signal counter : std_logic_vector(26 downto 0) := (others=> '0'); --esto se debe al número de bits necesario
-signal clock : std_logic := '0';
+signal counter : std_logic_vector(26 downto 0); --esto se debe al número de bits necesario
+signal clock : std_logic;
 begin                                       --para representar 100MHz
 process(clk, reset)
 begin
@@ -49,7 +48,7 @@ if(reset = '1') THEN
  counter <=(others=>('0'));
  clock<='0';
 elsif(clk'event and clk='1') THEN
-    if(counter=cuentamax) THEN  --101111101011110000100000000
+    if(counter="101111101011110000100000000") THEN  --101111101011110000100000000
       counter<=(others=>('0'));
       clock<= not clock;
     else

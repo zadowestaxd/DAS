@@ -39,7 +39,7 @@ entity divisor_frecuencia is
 end divisor_frecuencia;
 
 architecture Behavioral of divisor_frecuencia is
-signal counter : std_logic_vector(26 to 0); --esto se debe al número de bits necesario
+signal counter : std_logic_vector(26 downto 0); --esto se debe al número de bits necesario
 signal clock : std_logic;
 begin                                       --para representar 100MHz
 process(clk, reset)

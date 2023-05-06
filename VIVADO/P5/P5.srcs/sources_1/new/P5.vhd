@@ -41,9 +41,7 @@ begin
         if rising_edge(clkFPGA) then
             if we = '1' then
                 RAM(to_integer(unsigned(addr))) <= data_in;
-            else
-                RAM(to_integer(unsigned(addr))) <= std_logic_vector(to_unsigned(to_integer(unsigned(addr)) + 3, NUMPAL));
-            end if;
+           end if;
                 data_out <= RAM(to_integer(unsigned(addr)));
         end if;
     end process;  

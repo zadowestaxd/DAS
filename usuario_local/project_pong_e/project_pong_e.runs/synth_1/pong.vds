@@ -1,0 +1,331 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 24 10:25:55 2023
+# Process ID: 11764
+# Current directory: C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.runs/synth_1
+# Command line: vivado.exe -log pong.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pong.tcl
+# Log file: C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.runs/synth_1/pong.vds
+# Journal file: C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source pong.tcl -notrace
+Command: synth_design -top pong -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15108
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1131.262 ; gain = 29.008
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'pong' [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'divisorFrec' [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/divisorFrec.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'divisorFrec' (1#1) [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/divisorFrec.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'teclado' [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/p7.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'teclado' (2#1) [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/p7.vhd:44]
+WARNING: [Synth 8-614] signal 'hcnt' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:180]
+WARNING: [Synth 8-614] signal 'vcnt' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:180]
+WARNING: [Synth 8-614] signal 'hcnt' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:194]
+WARNING: [Synth 8-614] signal 'vcnt' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:194]
+WARNING: [Synth 8-614] signal 'hcnt' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:209]
+WARNING: [Synth 8-614] signal 'vcnt' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:209]
+WARNING: [Synth 8-614] signal 'hcnt' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:223]
+WARNING: [Synth 8-614] signal 'vcnt' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:223]
+WARNING: [Synth 8-614] signal 'bar' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:237]
+WARNING: [Synth 8-614] signal 'ball' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:237]
+WARNING: [Synth 8-614] signal 'fond' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:237]
+WARNING: [Synth 8-614] signal 'marc' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:237]
+WARNING: [Synth 8-614] signal 'estado_bar' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:337]
+WARNING: [Synth 8-614] signal 'newkey' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:337]
+WARNING: [Synth 8-614] signal 'scancode' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:337]
+WARNING: [Synth 8-614] signal 'bar_v_ini' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:337]
+WARNING: [Synth 8-614] signal 'bar_v_fin' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:337]
+WARNING: [Synth 8-614] signal 'estado_ball' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:389]
+WARNING: [Synth 8-614] signal 'ball_v_ini' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:389]
+WARNING: [Synth 8-614] signal 'ball_h_ini' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:389]
+WARNING: [Synth 8-614] signal 'bar_h_fin' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:389]
+WARNING: [Synth 8-614] signal 'bar_v_fin' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:389]
+WARNING: [Synth 8-614] signal 'ball_v_fin' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:389]
+WARNING: [Synth 8-614] signal 'bar_v_ini' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:389]
+WARNING: [Synth 8-614] signal 'ball_h_fin' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:389]
+WARNING: [Synth 8-614] signal 'ballclk' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:451]
+INFO: [Synth 8-226] default block is never used [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:466]
+INFO: [Synth 8-256] done synthesizing module 'pong' (3#1) [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:52]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1185.707 ; gain = 83.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1185.707 ; gain = 83.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1185.707 ; gain = 83.453
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1185.707 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc]
+WARNING: [Vivado 12-584] No ports matched 'leds[0]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[0]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[1]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[1]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[2]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[2]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[3]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[3]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[4]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[4]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[5]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[5]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[6]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[6]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[7]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[7]'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS2ClLK'. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:276]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc:276]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.srcs/constrs_1/imports/project_pong_e/const_generico.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/pong_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/pong_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1299.766 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1299.766 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1299.766 ; gain = 197.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1299.766 ; gain = 197.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1299.766 ; gain = 197.512
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'estado_bar_reg' in module 'pong'
+INFO: [Synth 8-802] inferred FSM for state register 'estado_ball_reg' in module 'pong'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  parado |                               00 |                               00
+                    down |                               01 |                               10
+                      up |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'estado_bar_reg' using encoding 'sequential' in module 'pong'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      no |                               00 |                               00
+                      ne |                               01 |                               11
+                      se |                               10 |                               10
+                      so |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'estado_ball_reg' using encoding 'sequential' in module 'pong'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1299.766 ; gain = 197.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   12 Bit       Adders := 4     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	               22 Bit    Registers := 1     
+	               12 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   3 Input   12 Bit        Muxes := 2     
+	   2 Input   12 Bit        Muxes := 2     
+	   2 Input    9 Bit        Muxes := 1     
+	   8 Input    7 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 8     
+	   4 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 7     
+	   3 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1299.766 ; gain = 197.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 1299.766 ; gain = 197.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 1309.363 ; gain = 207.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 1311.219 ; gain = 208.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1316.004 ; gain = 213.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1316.004 ; gain = 213.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1316.004 ; gain = 213.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1316.004 ; gain = 213.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1316.004 ; gain = 213.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1316.004 ; gain = 213.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |    98|
+|3     |LUT1   |    62|
+|4     |LUT2   |   272|
+|5     |LUT3   |    46|
+|6     |LUT4   |   124|
+|7     |LUT5   |     4|
+|8     |LUT6   |    11|
+|9     |FDCE   |   130|
+|10    |FDPE   |    23|
+|11    |IBUF   |     4|
+|12    |OBUF   |    25|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1316.004 ; gain = 213.750
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1316.004 ; gain = 99.691
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1316.004 ; gain = 213.750
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1328.023 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 98 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1328.023 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 43 Warnings, 17 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 1328.023 ; gain = 225.770
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/alevb/Desktop/DAS/usuario_local/project_pong_e/project_pong_e.runs/synth_1/pong.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file pong_utilization_synth.rpt -pb pong_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 24 10:26:36 2023...

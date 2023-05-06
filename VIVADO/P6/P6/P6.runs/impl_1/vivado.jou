@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 18 14:41:38 2023
+# Process ID: 4832
+# Current directory: C:/Users/alevb/Desktop/DAS/VIVADO/P6/P6/P6.runs/impl_1
+# Command line: vivado.exe -log PONG.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source PONG.tcl -notrace
+# Log file: C:/Users/alevb/Desktop/DAS/VIVADO/P6/P6/P6.runs/impl_1/PONG.vdi
+# Journal file: C:/Users/alevb/Desktop/DAS/VIVADO/P6/P6/P6.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source PONG.tcl -notrace

@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Tue Feb 21 13:51:05 2023
+| Date         : Fri Apr  7 14:44:07 2023
 | Host         : LaMatrix running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file divisor_frecuencia_timing_summary_routed.rpt -pb divisor_frecuencia_timing_summary_routed.pb -rpx divisor_frecuencia_timing_summary_routed.rpx -warn_on_violation
 | Design       : divisor_frecuencia
@@ -43,7 +43,7 @@ Table of Contents
 2. checking constant_clock (0)
 3. checking pulse_width_clock (0)
 4. checking unconstrained_internal_endpoints (56)
-5. checking no_input_delay (1)
+5. checking no_input_delay (28)
 6. checking no_output_delay (1)
 7. checking multiple_clock (0)
 8. checking generated_clocks (0)
@@ -74,9 +74,9 @@ Table of Contents
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 
 
-5. checking no_input_delay (1)
-------------------------------
- There is 1 input port with no input delay specified. (HIGH)
+5. checking no_input_delay (28)
+-------------------------------
+ There are 28 input ports with no input delay specified. (HIGH)
 
  There are 0 input ports with no input delay but user has a false path constraint.
 

@@ -32,8 +32,8 @@ begin
 
 frec: frecuencia port map (clk => clkFPGA, rst => reset, cuentamax => "101111101011110000100000000", clkOUT => clk_aux); --pormap
 
-    -- Módulo combinacional para decodificar la entrada de los switches
-    decodificador_entrada : process(piso_ir)
+    -- Módulo combinacional para codificar la entrada de los switches
+    codificador_entrada : process(piso_ir)
     begin
 case piso_ir is
         when "0000" => piso_destino <= "00";
@@ -108,15 +108,7 @@ end process;
             piso_actual_int <= piso_destino;
     end if;
     end process MOVER1;
-    -- Asignaciones de salida
-   
-  
-   -- piso_actual <= "0001" when (estado_actual = p0) else
-		--	"0010" when (estado_actual = p1) else
-			--"0100" when (estado_actual = p2) else
-			--"1000" when (estado_actual = p3) else
-			--"0000";
-			
+
     SAL: process(estado_actual)
     begin
         case estado_actual is

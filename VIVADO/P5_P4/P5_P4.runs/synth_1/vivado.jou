@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 11 14:55:40 2023
+# Process ID: 13988
+# Current directory: C:/Users/alevb/Desktop/DAS/VIVADO/P5_P4/P5_P4.runs/synth_1
+# Command line: vivado.exe -log ram8x8.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ram8x8.tcl
+# Log file: C:/Users/alevb/Desktop/DAS/VIVADO/P5_P4/P5_P4.runs/synth_1/ram8x8.vds
+# Journal file: C:/Users/alevb/Desktop/DAS/VIVADO/P5_P4/P5_P4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ram8x8.tcl -notrace

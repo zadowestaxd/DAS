@@ -1,0 +1,276 @@
+
+*** Running vivado
+    with args -log pong.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source pong.tcl -notrace
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source pong.tcl -notrace
+Command: link_design -top pong -part xc7vx485tffg1157-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1179.668 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 94 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W5' is not a valid site or package pin name. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:7]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:8]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V17' is not a valid site or package pin name. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:12]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:13]
+WARNING: [Vivado 12-584] No ports matched 'leds[0]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[0]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[1]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[1]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[2]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[2]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[3]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[3]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[4]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[4]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[5]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[5]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[6]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[6]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[7]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds[7]'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-69] Command failed: 'G19' is not a valid site or package pin name. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:236]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:237]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:239]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:241]
+CRITICAL WARNING: [Common 17-69] Command failed: 'N19' is not a valid site or package pin name. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:242]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:243]
+CRITICAL WARNING: [Common 17-69] Command failed: 'N18' is not a valid site or package pin name. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:244]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:245]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:247]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:249]
+CRITICAL WARNING: [Common 17-69] Command failed: 'J18' is not a valid site or package pin name. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:250]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:251]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:253]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:255]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:257]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:259]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P19' is not a valid site or package pin name. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:260]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:261]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R19' is not a valid site or package pin name. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:262]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:263]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:275]
+WARNING: [Vivado 12-584] No ports matched 'PS2ClLK'. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:276]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:276]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVCMOS33' is not supported on 'xc7vx485tffg1157-1' part. [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc:278]
+Finished Parsing XDC File [C:/Users/usuario_local/project_pong_g/project_pong_g.srcs/constrs_1/imports/project_pong_g/const_generico.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1258.742 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 17 Warnings, 43 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1262.727 ; gain = 83.059
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-1540] The version limit for your license is '2022.07' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.507 . Memory (MB): peak = 1280.875 ; gain = 18.148
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1a2959353
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1945.344 ; gain = 664.469
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1a2959353
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2156.980 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1a2959353
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2156.980 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1c641fd2e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 2156.980 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1c641fd2e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 2156.980 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1c641fd2e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 2156.980 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1c641fd2e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 2156.980 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               1  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2156.980 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: ec1e776e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 2156.980 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: ec1e776e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 2156.980 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: ec1e776e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2156.980 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2156.980 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: ec1e776e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2156.980 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+25 Infos, 17 Warnings, 43 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2156.980 ; gain = 894.254
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 2156.980 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/usuario_local/project_pong_g/project_pong_g.runs/impl_1/pong_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file pong_drc_opted.rpt -pb pong_drc_opted.pb -rpx pong_drc_opted.rpx
+Command: report_drc -file pong_drc_opted.rpt -pb pong_drc_opted.pb -rpx pong_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/software/electronica/xilinx/Vivado/2020.2/data/ip'.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/usuario_local/project_pong_g/project_pong_g.runs/impl_1/pong_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-1540] The version limit for your license is '2022.07' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2204.043 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 778a2def
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2204.043 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2204.043 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus rgb are not locked:  'rgb[7]'  'rgb[4]'  'rgb[3]'  'rgb[0]' 
+ERROR: [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.
+	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets PS2CLK_IBUF] >
+
+	PS2CLK_IBUF_inst (IBUF.O) is locked to IOB_X1Y263
+	PS2CLK_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y31
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 11f1d51f8
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2204.043 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 11f1d51f8
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2204.043 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 11f1d51f8
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2204.043 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+44 Infos, 18 Warnings, 43 Critical Warnings and 3 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 11 15:17:53 2023...

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1678976248">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1679418262">
   <File Type="PA-TCL" Name="ram8x8.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="ram8x8_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="ram8x8_reports.tcl"/>

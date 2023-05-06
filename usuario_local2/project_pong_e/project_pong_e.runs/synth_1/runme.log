@@ -1,0 +1,35 @@
+
+*** Running vivado
+    with args -log pong.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source pong.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source pong.tcl -notrace
+Command: synth_design -top pong -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4368
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1198.184 ; gain = 18.723
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2715] syntax error near 7 [C:/Users/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:464]
+ERROR: [Synth 8-2321] mismatch on label ; expected display [C:/Users/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:486]
+INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [C:/Users/usuario_local/project_pong_e/project_pong_e.srcs/sources_1/imports/project_pong_e/pong.vhd:52]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1246.844 ; gain = 67.383
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 17 18:21:53 2023...

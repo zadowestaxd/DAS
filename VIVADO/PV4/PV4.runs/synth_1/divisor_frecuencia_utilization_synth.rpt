@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Tue Feb 21 13:49:21 2023
+| Date         : Fri Apr  7 14:43:10 2023
 | Host         : LaMatrix running 64-bit major release  (build 9200)
 | Command      : report_utilization -file divisor_frecuencia_utilization_synth.rpt -pb divisor_frecuencia_utilization_synth.pb
 | Design       : divisor_frecuencia
@@ -30,8 +30,8 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |   35 |     0 |     20800 |  0.17 |
-|   LUT as Logic          |   35 |     0 |     20800 |  0.17 |
+| Slice LUTs*             |   37 |     0 |     20800 |  0.18 |
+|   LUT as Logic          |   37 |     0 |     20800 |  0.18 |
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
 | Slice Registers         |   28 |     0 |     41600 |  0.07 |
 |   Register as Flip Flop |   28 |     0 |     41600 |  0.07 |
@@ -90,7 +90,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |    3 |     0 |       106 |  2.83 |
+| Bonded IOB                  |   30 |     0 |       106 | 28.30 |
 | Bonded IPADs                |    0 |     0 |        10 |  0.00 |
 | Bonded OPADs                |    0 |     0 |         4 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |         5 |  0.00 |
@@ -150,13 +150,11 @@ Table of Contents
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | LUT2     |   29 |                 LUT |
+| IBUF     |   29 |                  IO |
 | FDCE     |   28 |        Flop & Latch |
-| CARRY4   |    7 |          CarryLogic |
-| LUT6     |    3 |                 LUT |
-| LUT4     |    3 |                 LUT |
-| IBUF     |    2 |                  IO |
+| CARRY4   |   10 |          CarryLogic |
+| LUT6     |    9 |                 LUT |
 | OBUF     |    1 |                  IO |
-| LUT3     |    1 |                 LUT |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
 

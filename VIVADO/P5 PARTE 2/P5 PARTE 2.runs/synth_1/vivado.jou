@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 20 17:03:37 2023
+# Process ID: 6120
+# Current directory: C:/Users/alevb/Desktop/DAS/VIVADO/P5 PARTE 2/P5 PARTE 2.runs/synth_1
+# Command line: vivado.exe -log ram32kx32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ram32kx32.tcl
+# Log file: C:/Users/alevb/Desktop/DAS/VIVADO/P5 PARTE 2/P5 PARTE 2.runs/synth_1/ram32kx32.vds
+# Journal file: C:/Users/alevb/Desktop/DAS/VIVADO/P5 PARTE 2/P5 PARTE 2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ram32kx32.tcl -notrace

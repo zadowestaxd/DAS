@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date             : Tue Feb 21 13:51:05 2023
+| Date             : Fri Apr  7 14:44:07 2023
 | Host             : LaMatrix running 64-bit major release  (build 9200)
 | Command          : report_power -file divisor_frecuencia_power_routed.rpt -pb divisor_frecuencia_power_summary_routed.pb -rpx divisor_frecuencia_power_routed.rpx
 | Design           : divisor_frecuencia
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.236        |
+| Total On-Chip Power (W)  | 0.490        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.167        |
+| Dynamic (W)              | 0.421        |
 | Device Static (W)        | 0.069        |
 | Effective TJA (C/W)      | 5.0          |
-| Max Ambient (C)          | 83.8         |
-| Junction Temperature (C) | 26.2         |
+| Max Ambient (C)          | 82.5         |
+| Junction Temperature (C) | 27.5         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.110 |       74 |       --- |             --- |
-|   LUT as Logic |     0.080 |       35 |     20800 |            0.17 |
-|   CARRY4       |     0.014 |        7 |      8150 |            0.09 |
-|   Register     |     0.011 |       28 |     41600 |            0.07 |
+| Slice Logic    |     0.118 |       79 |       --- |             --- |
+|   LUT as Logic |     0.089 |       37 |     20800 |            0.18 |
+|   CARRY4       |     0.013 |       10 |      8150 |            0.12 |
+|   Register     |     0.010 |       28 |     41600 |            0.07 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |     0.052 |       44 |       --- |             --- |
-| I/O            |     0.004 |        3 |       106 |            2.83 |
+| Signals        |     0.191 |       67 |       --- |             --- |
+| I/O            |     0.112 |       30 |       106 |           28.30 |
 | Static Power   |     0.069 |          |           |                 |
-| Total          |     0.236 |          |           |                 |
+| Total          |     0.490 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.177 |       0.167 |      0.010 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.431 |       0.421 |      0.010 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -138,7 +138,7 @@ Table of Contents
 +--------------------+-----------+
 | Name               | Power (W) |
 +--------------------+-----------+
-| divisor_frecuencia |     0.167 |
+| divisor_frecuencia |     0.421 |
 +--------------------+-----------+
 
 

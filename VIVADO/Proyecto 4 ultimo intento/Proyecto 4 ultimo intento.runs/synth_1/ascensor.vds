@@ -2,12 +2,12 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Tue Mar 14 14:26:08 2023
-# Process ID: 3028
-# Current directory: C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.runs/synth_1
+# Start of session at: Tue Apr 18 14:04:07 2023
+# Process ID: 6724
+# Current directory: C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.runs/synth_1
 # Command line: vivado.exe -log ascensor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ascensor.tcl
-# Log file: C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.runs/synth_1/ascensor.vds
-# Journal file: C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.runs/synth_1\vivado.jou
+# Log file: C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.runs/synth_1/ascensor.vds
+# Journal file: C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source ascensor.tcl -notrace
 Command: synth_design -top ascensor -part xc7a35tcpg236-1
@@ -17,63 +17,63 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 6028
+INFO: [Synth 8-7075] Helper process launched with PID 10316
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1132.301 ; gain = 43.641
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1131.184 ; gain = 26.977
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'ascensor' [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/P4.vhd:14]
-INFO: [Synth 8-3491] module 'frecuencia' declared at 'C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/divisor.vhd:14' bound to instance 'frec' of component 'frecuencia' [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/P4.vhd:33]
-INFO: [Synth 8-638] synthesizing module 'frecuencia' [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/divisor.vhd:21]
-WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/divisor.vhd:26]
-INFO: [Synth 8-256] done synthesizing module 'frecuencia' (1#1) [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/divisor.vhd:21]
-WARNING: [Synth 8-614] signal 'piso_actual_int' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/P4.vhd:69]
-INFO: [Synth 8-256] done synthesizing module 'ascensor' (2#1) [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/P4.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'ascensor' [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/P4.vhd:14]
+INFO: [Synth 8-3491] module 'frecuencia' declared at 'C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/divisor.vhd:14' bound to instance 'frec' of component 'frecuencia' [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/P4.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'frecuencia' [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/divisor.vhd:21]
+WARNING: [Synth 8-614] signal 'clk' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/divisor.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'frecuencia' (1#1) [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/divisor.vhd:21]
+WARNING: [Synth 8-614] signal 'piso_actual_int' is read in the process but is not in the sensitivity list [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/P4.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'ascensor' (2#1) [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/sources_1/new/P4.vhd:14]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1184.180 ; gain = 95.520
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1183.285 ; gain = 79.078
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1184.180 ; gain = 95.520
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1183.285 ; gain = 79.078
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1184.180 ; gain = 95.520
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1183.285 ; gain = 79.078
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1184.180 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1183.285 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/constrs_1/new/constraints.xdc]
-WARNING: [Vivado 12-507] No nets matched 'mover_IBUF'. [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/constrs_1/new/constraints.xdc:5]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/constrs_1/new/constraints.xdc:5]
+Parsing XDC File [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-507] No nets matched 'mover_IBUF'. [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/constrs_1/new/constraints.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/constrs_1/new/constraints.xdc:5]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/constrs_1/new/constraints.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ascensor_propImpl.xdc].
+Finished Parsing XDC File [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ascensor_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/ascensor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1275.473 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1266.375 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1275.473 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1266.375 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1275.473 ; gain = 186.812
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1266.375 ; gain = 162.168
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1275.473 ; gain = 186.812
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1266.375 ; gain = 162.168
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1275.473 ; gain = 186.812
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1266.375 ; gain = 162.168
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'estado_actual_reg' in module 'ascensor'
 ---------------------------------------------------------------------------------------------------
@@ -86,7 +86,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'estado_actual_reg' in modul
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'estado_actual_reg' using encoding 'one-hot' in module 'ascensor'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1275.473 ; gain = 186.812
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1266.375 ; gain = 162.168
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -115,25 +115,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1275.473 ; gain = 186.812
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1266.375 ; gain = 162.168
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1277.695 ; gain = 189.035
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1273.645 ; gain = 169.438
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1277.770 ; gain = 189.109
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1273.719 ; gain = 169.512
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1296.859 ; gain = 208.199
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1292.836 ; gain = 188.629
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -151,37 +151,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1303.680 ; gain = 215.020
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1298.680 ; gain = 194.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1303.680 ; gain = 215.020
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1298.680 ; gain = 194.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1303.680 ; gain = 215.020
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1298.680 ; gain = 194.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1303.680 ; gain = 215.020
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1298.680 ; gain = 194.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1303.680 ; gain = 215.020
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1298.680 ; gain = 194.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1303.680 ; gain = 215.020
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1298.680 ; gain = 194.473
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -210,26 +210,26 @@ Report Cell Usage:
 |11    |OBUF   |     4|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1303.680 ; gain = 215.020
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1298.680 ; gain = 194.473
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1303.680 ; gain = 123.727
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1303.680 ; gain = 215.020
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1298.680 ; gain = 111.383
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1298.680 ; gain = 194.473
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1315.727 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1310.707 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1319.914 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1319.387 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 22 Infos, 3 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1319.914 ; gain = 231.254
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 1319.387 ; gain = 215.180
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-INFO: [Common 17-1381] The checkpoint 'C:/Users/alevb/Desktop/DAS/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.runs/synth_1/ascensor.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/alevb/Desktop/DAS/VIVADO/Proyecto 4 ultimo intento/Proyecto 4 ultimo intento.runs/synth_1/ascensor.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file ascensor_utilization_synth.rpt -pb ascensor_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Mar 14 14:26:45 2023...
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 18 14:04:42 2023...

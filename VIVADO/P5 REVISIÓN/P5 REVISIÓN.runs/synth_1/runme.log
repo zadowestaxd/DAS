@@ -1,0 +1,26 @@
+
+*** Running vivado
+    with args -log P5REVISION.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source P5REVISION.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source P5REVISION.tcl -notrace
+Command: synth_design -top P5REVISION -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5208
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1130.562 ; gain = 25.570
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'P5REVISION' [C:/Users/alevb/Desktop/DAS/VIVADO/P5 REVISIÓN/P5 REVISIÓN.srcs/sources_1/new/P5REVISION.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'P5REVISION' (1#1) [C:/Users/alevb/Desktop/DAS/VIVADO/P5 REVISIÓN/P5 REVISIÓN.srcs/sources_1/new/P5REVISION.vhd:12]
+TclStackFree: incorrect freePtr. Call out of sequence?

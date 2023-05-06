@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr 11 13:35:51 2023
+# Process ID: 12164
+# Current directory: C:/Users/usuario_local/project_pong_c/project_pong_c.runs/impl_1
+# Command line: vivado.exe -log pong.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pong.tcl -notrace
+# Log file: C:/Users/usuario_local/project_pong_c/project_pong_c.runs/impl_1/pong.vdi
+# Journal file: C:/Users/usuario_local/project_pong_c/project_pong_c.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source pong.tcl -notrace
